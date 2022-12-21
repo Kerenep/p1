@@ -1,1 +1,153 @@
-# p1
+<html>
+  <head>
+    <title>Sneakers</title>
+    <h1>👠 or 👟</h1>
+    <h2>Sneakers are the best👟!!</h2>
+    <style>
+      h1 {
+        text-align: center;
+        color: rgb(171, 21, 21);
+        font-size: 45px;
+        font-weight: 400px;
+      }
+      h2 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 300px;
+        border: 2px solid black;
+        padding: 25px;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 7px;
+        box-shadow: 5px 5px 5px 5px;
+      }
+      p {
+        width: 70%;
+        height: 160px;
+        margin: auto;
+        align-items: center;
+        display: block;
+        padding: 30px 0 0 0;
+      }
+      button {
+        display: block;
+        background: #5c1e21;
+        color: rgb(250, 236, 236);
+        font-size: 25px;
+        margin: 30px auto;
+        transition: all 200ms ease-in-out;
+        padding: 15px 30px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px;
+        cursor: pointer;
+      }
+      button:hover {
+        background: rgb(29, 23, 23);
+        color: aquamarine;
+      }
+      body {
+        font-size: 20px;
+        font-weight: 35px;
+        text-align: center;
+        margin-bottom: 15px;
+        background-color: rgb(116, 19, 19);
+      }
+      ul {
+        list-style: none;
+        text-align: center;
+        padding: 0px;
+      }
+      li {
+        display: inline;
+        margin: 25px;
+      }
+    </style>
+    <img
+      src="https://sneakernews.com/wp-content/uploads/2021/04/Air-Jordan-5-Toro-Bravo-DD0587-600-2-1.jpg?w=1140"
+      alt="Jordan"
+      width="400"
+    />
+
+    <p>
+      Sneakers were invented in the 1940s as a variation of tennis shoes to be
+      worn between sports. Sneakers (also called trainers, athletic shoes,
+      tennis shoes, gym shoes, kicks, sport shoes, flats, running shoes, or
+      runners) are shoes primarily designed for sports or other forms of
+      physical exercise, but which are now also widely used for everyday casual
+      wear. There's different brands of sneakers, here's some :
+    </p>
+    <ul>
+      <li>
+        <a
+          class="shoes"
+          href="https://www.squashsource.com/wp-content/uploads/adidas-essence-10.1-squash-shoes.jpg"
+          >Adidas
+        </a>
+      </li>
+      <li>
+        <a
+          class="first"
+          href="https://images.solecollector.com/images/fl_lossy,q_auto/icx25qdpvvkakggbznxx/air-jordan-1-high-zoom-cmft-good-game-lateral"
+        >
+          Nike</a
+        >
+      </li>
+      <li>
+        <a
+          class="second"
+          href="https://www.kicksonfire.com/wp-content/uploads/2020/03/New-Balance-997-1.jpg?x56094"
+          >New Balance</a
+        >
+      </li>
+
+      <li>
+        <a
+          class="third"
+          href="https://images-na.ssl-images-amazon.com/images/I/61tg0w%2BuGhL._AC_UY625_.jpg"
+        >
+          Prada</a
+        >
+      </li>
+
+      <li>
+        <a
+          class="Prenium"
+          href="https://cdnb.lystit.com/1200/630/tr/photos/farfetch/b714d1c7/balenciaga-Blue-Triple-S-Clear-Sole-Sneakers.jpeg"
+        >
+          Balenciaga</a
+        >
+      </li>
+    </ul>
+    <body>
+      Interesting right,checkout
+      <a
+        class="shoes"
+        href="https://www.gq.com/gallery/the-best-sneakers-of-2022"
+      >
+        more!!</a
+      >
+
+      <div><button>Come find your pair!!</button></div>
+      <hr />
+      Coded by <strong><em> Kerene Pierre</em></strong>
+
+      <script>
+        function preference() {
+          let name = prompt("What is your name?");
+          let prefer = prompt("You prefer heels or sneakers?");
+          if (prefer === "sneakers") {
+            alert("Hey" + name + ", you know the vibe 😉");
+          } else {
+            alert("Hey" + name + ", what your waiting for? GO GET A PAIR!🥲");
+          }
+        }
+
+        let Comefindyourpairbutton = document.querySelector("button");
+
+        Comefindyourpairbutton.addEventListener("click", preference);
+      </script>
+    </body>
+  </head>
+</html>
